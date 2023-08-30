@@ -23,3 +23,4 @@ test('check Java page', async ({ page }) => {
   await expect(page.getByText(javaDescription)).toBeVisible();
 });
 
+const test = 'testar';
